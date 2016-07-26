@@ -9,4 +9,4 @@ test:
   override:
     - mvn surefire:test
   post:
-    - mvn failsafe:integration-test
+    - mvn failsafe:integration-test failsafe:verify
