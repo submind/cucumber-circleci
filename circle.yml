@@ -7,6 +7,6 @@ test:
   pre:
     - mvn clean compile
   override:
-    - mvn surefire:test
+    - mvn test
   post:
     - mvn failsafe:integration-test failsafe:verify
