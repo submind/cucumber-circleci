@@ -1,13 +1,12 @@
 machine:
-
   java:
     version:
       oraclejdk8
 
 test:
   pre:
-    - mvn compile
+    - mvn clean compile
   override:
     - mvn test
   post:
-    - mvn failsafe:integration-test
+    - mvn failsafe:integration-test failsafe:verify
