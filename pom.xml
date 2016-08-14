@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.aceonion</groupId>
-    <artifactId>it</artifactId>
-    <version>1.0.0</version>
+    <artifactId>cicd-test</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
