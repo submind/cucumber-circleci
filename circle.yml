@@ -1,3 +1,9 @@
+general:
+  branches:
+    only:
+      - dev
+      - release
+
 machine:
   java:
     version:
@@ -10,3 +16,9 @@ test:
     - mvn test
   post:
     - mvn failsafe:integration-test failsafe:verify
+
+deployment:
+  release:
+    branch: release
+    commands:
+      - ./release.sh
