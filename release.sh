@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-git checkout dev
+mvn release:branch -B
