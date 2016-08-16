@@ -13,6 +13,6 @@ test:
 
 deployment:
   release:
-    branch: release
+    branch: dev
     commands:
       - ./release.sh
