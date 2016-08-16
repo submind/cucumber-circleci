@@ -8,7 +8,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/submind/cucumber-circleci</developerConnection>
-      <tag>release</tag>
+      <tag>test</tag>
   </scm>
 
     <properties>
