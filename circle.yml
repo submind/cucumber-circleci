@@ -10,3 +10,9 @@ test:
     - mvn test
   post:
     - mvn failsafe:integration-test failsafe:verify
+
+deployment:
+  release:
+    branch: dev
+    commands:
+      - ./release.sh
