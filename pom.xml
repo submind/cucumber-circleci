@@ -4,7 +4,7 @@
 
     <groupId>com.aceonion</groupId>
     <artifactId>cicd-test</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.4-SNAPSHOT</version>
 
     <scm>
         <developerConnection>scm:git:https://github.com/submind/cucumber-circleci</developerConnection>
@@ -40,7 +40,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.2</version>
                 <configuration>
-                    <scmCommentPrefix>[skip-ci]</scmCommentPrefix>
+                    <scmCommentPrefix>[ci skip]</scmCommentPrefix>
                 </configuration>
             </plugin>
         </plugins>
