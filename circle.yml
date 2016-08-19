@@ -15,4 +15,7 @@ deployment:
   release:
     branch: dev
     commands:
-      - ./release.sh
+      - echo $CI_PULL_REQUEST;
+      - echo $CIRCLE_TEST_REPORTS;
+      - echo $CIRCLE_PR_REPONAME ;
+      - echo $CIRCLE_PR_NUMBER ;
