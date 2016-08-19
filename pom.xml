@@ -4,11 +4,11 @@
 
     <groupId>com.aceonion</groupId>
     <artifactId>cicd-test</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
 
     <scm>
         <developerConnection>scm:git:https://github.com/submind/cucumber-circleci</developerConnection>
-      <tag>cicd-test-1.0.5</tag>
+      <tag>test</tag>
   </scm>
 
     <properties>
