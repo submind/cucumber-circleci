@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-mvn release:branch -B
+mvn release:prepare arguments='-Dmaven.test.skip=true' -B

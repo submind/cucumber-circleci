@@ -20,3 +20,4 @@ deployment:
       - echo $CIRCLE_TEST_REPORTS;
       - echo $CIRCLE_PR_REPONAME;
       - echo $CIRCLE_PR_NUMBER;
+      - if [ ! -z "$CI_PULL_REQUEST"] ; then ./release.sh
